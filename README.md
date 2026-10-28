@@ -1,4 +1,4 @@
-# Caracterização da Incerteza em Imagens Médicas (RX) por Análise de Similaridade
+# 🩻 Caracterização da Incerteza em Imagens Médicas (RX) por Análise de Similaridade
 
 > Iniciação Científica — UDESC · Ciência da Computação
 > Caracterização da incerteza mediante análise de similaridade de imagens médicas de raio-X por meio de **ferramentas clássicas** de visão computacional e aprendizado de máquina.
@@ -33,7 +33,7 @@ Para investigar isso, o projeto:
 
 ---
 
-## Metodologia
+## 🔬 Metodologia
 
 ```mermaid
 flowchart TD
@@ -71,7 +71,7 @@ flowchart TD
 
 Os modelos são treinados **apenas com Saudável e Doente**; as imagens Incertas nunca são vistas no treino e são usadas apenas para medir a incerteza (probabilidades, margem e logit).
 
-> Todos os scripts usam `SEED = 42` para garantir reprodutibilidade.
+> 🔁 Todos os scripts usam `SEED = 42` para garantir reprodutibilidade.
 
 ---
 
@@ -111,7 +111,7 @@ pip install opencv-python pandas numpy tqdm scikit-image scikit-learn scipy matp
 
 ---
 
-## Ordem de execução
+## ▶️ Ordem de execução
 
 ### Passo 1 — Inventário da base
 ```bash
@@ -192,7 +192,7 @@ Varre limiares de 0,1 a 0,9 (passo 0,05) e mostra como a classificação dos inc
 
 ---
 
-## Arquivos gerados
+## 📦 Arquivos gerados
 
 <details>
 <summary><b>CSVs</b></summary>
